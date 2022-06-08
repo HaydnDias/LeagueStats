@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="LeagueGameApi.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="4.2.8" />
+    <PackageReference Include="SwaggerProvider" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="LeagueGameClient.v1.Swagger_v2.json" />
+  </ItemGroup>
+</Project>

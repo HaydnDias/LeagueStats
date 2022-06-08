@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LeagueStats", "LeagueStats\LeagueStats.fsproj", "{F06C44D9-9BF7-46C2-8A8D-25062C70842F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LeagueStats.Core", "LeagueStats.Core\LeagueStats.Core.fsproj", "{9DA83231-1A53-4405-BEF7-9DAFB5C86706}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LeagueStats.Core.Tests", "LeagueStats.Core.Tests\LeagueStats.Core.Tests.fsproj", "{13BF0E87-8FA7-4C8E-AEAD-891B1281236A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F06C44D9-9BF7-46C2-8A8D-25062C70842F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06C44D9-9BF7-46C2-8A8D-25062C70842F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06C44D9-9BF7-46C2-8A8D-25062C70842F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06C44D9-9BF7-46C2-8A8D-25062C70842F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA83231-1A53-4405-BEF7-9DAFB5C86706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA83231-1A53-4405-BEF7-9DAFB5C86706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA83231-1A53-4405-BEF7-9DAFB5C86706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA83231-1A53-4405-BEF7-9DAFB5C86706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BF0E87-8FA7-4C8E-AEAD-891B1281236A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BF0E87-8FA7-4C8E-AEAD-891B1281236A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BF0E87-8FA7-4C8E-AEAD-891B1281236A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BF0E87-8FA7-4C8E-AEAD-891B1281236A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
